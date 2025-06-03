@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Georgia', serif; /* Usando Georgia como uma fonte serif próxima, com fallback genérico */
+    font-family: 'Georgia', serif;
     background-color: #f0f2f5;
     display: flex;
     justify-content: center;
