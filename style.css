@@ -71,7 +71,7 @@ body {
 /* Usamos <aside> para o painel direito agora */
 .right-panel { /* Mantemos a classe para o estilo */
     flex: 1;
-    background-color: #333333; /* Fundo escuro para a imagem */
+    background-color: #7cc547; /* Fundo escuro para a imagem */
     display: flex;
     justify-content: center;
     align-items: center;
