@@ -16,8 +16,8 @@ body {
     overflow: hidden;
 }
 
-/* Usamos <main> para o painel esquerdo agora */
-.left-panel { /* Mantemos a classe para o estilo */
+
+.left-panel {
     flex: 1;
     background-color: #202d10;
     color: #FFFFFF;
@@ -28,7 +28,7 @@ body {
 }
 
 
-.left-panel .name {
+.left-panel .nome {
     font-family: 'Georgia', serif;
     font-size: 3.8em;
     line-height: 1.1;
@@ -37,7 +37,7 @@ body {
 }
 
 .role-badge {
-    background-color: #558B2F; /* Verde vibrante */
+    background-color: #558B2F; 
     color: #FFFFFF;
     padding: 12px 20px;
     border-radius: 5px;
@@ -48,7 +48,7 @@ body {
 }
 
 /* Usamos <nav> para o menu agora */
-.main-nav { /* Mantemos a classe para o estilo */
+.main-nav {
     margin-top: auto;
 }
 
@@ -69,9 +69,9 @@ body {
 }
 
 /* Usamos <aside> para o painel direito agora */
-.right-panel { /* Mantemos a classe para o estilo */
+.right-panel { 
     flex: 1;
-    background-color: #7cc547; /* Fundo escuro para a imagem */
+    background-color: #202d10; /* Fundo escuro para a imagem */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,3 +88,40 @@ body {
     width: 80%;
     height: 90%;
 }
+
+.left-panel .texto {
+    background-color: #7ea561;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 30px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.menu2 {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+} 
+ul {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+li {
+
+    display: inline;
+
+    margin-right: 20px;
+
+        }
